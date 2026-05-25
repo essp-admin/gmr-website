@@ -56,21 +56,21 @@ footer {
 /* MOBILE */
 @media (max-width: 768px) {
   .center {
-    top: 47%;
+    top: 46%;
   }
 
   .logo {
-    width: 210px;
-    margin-bottom: 110px;
+    width: 150px;
+    margin-bottom: 58px;
   }
 
   .email {
-    font-size: 27px;
-    letter-spacing: 1.3px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
   }
 
   footer {
-    bottom: 85px;
-    font-size: 24px;
+    bottom: 55px;
+    font-size: 13px;
   }
 }
