@@ -19,7 +19,7 @@ body {
   overflow: hidden;
 }
 
-/* DESKTOP */
+/* DESKTOP — NO TOCADO */
 .center {
   position: absolute;
   top: 45.5%;
@@ -54,8 +54,8 @@ footer {
   letter-spacing: 1px;
 }
 
-/* MOBILE */
-@media screen and (max-width: 768px) {
+/* MOBILE — AJUSTADO */
+@media (max-width: 768px) {
 
   .center {
     top: 46%;
@@ -63,17 +63,17 @@ footer {
 
   .logo {
     width: 145px;
-    max-width: 42vw;
     margin-bottom: 58px;
   }
 
   .email {
-    font-size: 13px;
-    letter-spacing: 1.2px;
+    font-size: 12px;
+    letter-spacing: 2px;
   }
 
   footer {
-    bottom: 55px;
-    font-size: 13px;
+    bottom: 48px;
+    font-size: 11px;
+    letter-spacing: 1.2px;
   }
 }
